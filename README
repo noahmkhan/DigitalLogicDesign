@@ -1,4 +1,4 @@
 # Description
 
 This application uses the the first 8 switches and the 7-segment LED display on the FPGA.
-Each switch represents and single bit. a value from 0 to F can be displayed on the LED display.
+Each switch represents and single bit. A value from 0 to F can be displayed on the LED display.
