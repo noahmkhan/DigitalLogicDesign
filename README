@@ -1,2 +1,4 @@
+# Description
 
-This repository contians digital logic projects. These applications were developed using the application Vivado. Applications use switches, buttons and/or 7-Segment display.
+This application uses the the first 8 switches and the 7-segment LED display on the FPGA.
+Each switch represents and single bit. a value from 0 to F can be displayed on the LED display.
