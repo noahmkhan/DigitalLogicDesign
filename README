@@ -1,2 +1,5 @@
+#Description
 
-This repository contians digital logic projects. These applications were developed using the application Vivado. Applications use switches, buttons and/or 7-Segment display.
+This application uses switches, buttons, and the LED display. The user chooses two numbers from 0-3.
+The first value is stored using flip-flips. Once the second value is chosen, the user adds the two values
+by pressing button C on the FPGA.
