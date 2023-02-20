@@ -1,2 +1,19 @@
+# Description
 
-This repository contians digital logic projects. These applications were developed using the application Vivado. Applications use switches, buttons and/or 7-Segment display.
+This program was origanally intended to be used with IR sensors but has been modifed to use buttons in place of the sensors. Within the scope of this project,
+A button being pushed down is the same as a senor being covered by an animal.
+
+The hardware utilized for this project are the buttons left (L), right (R), and the 7-segment LED display. This program uses a state machine comprised
+of 6 states and a 4-bit counter. The counter has the ability to increment and decrement. The counter only increments in the following scenario:
+
+The left button is pushed and held down. Then, the right button is held down while the left button is still being held down. After, the left button
+is released. Finally, the right button is released. This will cause the counter to count up.
+
+Conversely, the counter will decrement in the following scenario:
+
+The right button is pushed and held down. Then, the left button is held down while the right button is still being held down. After, the right button
+is released. Finally, the left button is released. This will cause the counter to count down.
+
+In both of these cases an animal has fully crossed the road.
+
+In any other case, the counter will not change.
