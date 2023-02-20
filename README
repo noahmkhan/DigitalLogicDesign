@@ -1,1 +1,7 @@
+# Description
 
+This program uses a VGA monitor, button up (u), down (d), center (c), and reset (r). The player is displayed as a frog, or a white box, on the screen.
+Button C is used to begin the game. Green boxes, or lilypads, will move towards the player. The player has the option to jump over the lilypad by pressing
+U or dive underneath it by pressing D. The counter will increment each time the player successfully overcomes an obstacle.
+
+The game will end when the player collides with the lilypad. Each lilypad will stop moving and the frog will blink. The game will restart when button R is pressed.
