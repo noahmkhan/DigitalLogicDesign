@@ -1,2 +1,5 @@
+# Description
 
-This repository contians digital logic projects. These applications were developed using the application Vivado. Applications use switches, buttons and/or 7-Segment display.
+This program uses 2 8-bit counters, button c, and the 7-segment display. Player 1 presses the button and the counter increments automatically. The same player presses
+the button again, the counter stops and the value stays on the right most portion of the LED. The left part of the LED will begin to increment. Player 2 has to try and 
+stop the counter on the same value player stopped their counter.
